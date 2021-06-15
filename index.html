@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="js-tilt">
+    <img src="img/tenis-nike-air-max-90-essential.png" alt="">
+    <h2>Nike Air</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button>Add to Cart</button>
+  </div>
+  
+  <div class="js-tilt">
+    <img src="img/tenis-nike-air-max-90.png" alt="">
+    <h2>Nike Air</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="js-tilt">
+    <img src="img/tenis-nike-air-max-90_2.png" alt="">
+    <h2>Nike Air</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <button>Add to Cart</button>
+  </div>
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> 
+  
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll('.js-tilt'), {
+      max: 15,
+      speed: 400,
+      glare: true,
+      "max-glare": 0.2,
+
+    });
+  </script>
+</body>
+</html>
